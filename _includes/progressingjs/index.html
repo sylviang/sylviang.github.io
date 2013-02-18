@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>CNY 2013</title>
+<script src="processing-1.4.1.min.js"></script>
+</head>
+
+<body align="center">
+<h1>Processing.js</h1>
+<div>
+<script type="application/processing">
+
+//Global Variables
+float[] x = new float[30];
+float[] y = new float[30];
+float segLength = 18;
+PImage a;
+PImage head;
+
+//Setup the Processing Canvas
+void setup() {
+	int pondWidth = 960;
+	int pondHeight = 720;
+		size(pondWidth, pondHeight);
+  		smooth();
+  	a = loadImage("data/bg.jpg");
+	shead = loadImage("data/shead.png");
+}
+
+//Main draw
+void draw() {
+  image( a, 0, 0 );
+  dragSegment(0, mouseX, mouseY);
+  for(int i=0; i < x.length-1; i++) {
+    dragSegment(i+1, x[i], y[i]);
+  }
+}
+
+void dragSegment(int i, float xin, float yin) {
+  float dx = xin - x[i];
+  float dy = yin - y[i];
+  float angle = atan2(dy, dx);  
+  x[i] = xin - cos(angle) * segLength;
+  y[i] = yin - sin(angle) * segLength;
+  
+  pushMatrix();
+  translate(x[i], y[i]);
+  rotate(angle);
+  
+  color c;
+  c = color(204, 30, 29, 255);
+  
+  if ( i % 3 == 1 )
+    c = color(240, 198, 222, 255);
+  //else if ( i % 3 == 2 )
+    //c = color(127, 140, 114, 255);
+  //else
+    //c = color(217, 194, 126, 255);
+	
+  stroke( c );
+  strokeWeight(20);
+  line(0, 0, segLength, 0);
+  
+  //color linec;
+  //linec = color(63, 77, 80);
+  //stroke (linec);
+  //strokeWeight(1);
+  //line(0, 0, 21, 0);
+
+
+  //snake tail
+  if ( i == x.length - 1 )
+  {
+    fill( c );
+    noStroke();
+    beginShape(TRIANGLES);
+    vertex(0, 10);
+    vertex(-2 * segLength, 0);
+    vertex(0, -10);
+    endShape();
+  }
+  
+  //snake head
+  if ( i == 0 )
+  {
+	  /*
+	  c = color(240, 198, 222, 255);
+	  fill (c);
+	  noStroke();
+	  triangle(20, 12, 20, -12, 60, 0);
+	  //triangle(30, 75, 58, 20, 86, 75);
+	  //triangle(x1, y1, x2, y2, x3, y3)
+	  
+	    
+	  
+	  fill(c);
+	  //arc(20, 10, 50, 50, PI+QUARTER_PI, TWO_PI);
+	  arc(25, 0, 25, 25, -2, 2, TWO_PI);  
+	  
+	  
+	  noStroke();
+	  ellipseMode (RADIUS); //set ellipsemode to radius
+	  fill(255); //set fill to white
+	  ellipse(25, -8, 4, 4); //draw white ellipse using radius mode
+	  ellipseMode (CENTER); //set to center
+	  fill (100); //set fill to gray
+	  ellipse(25, -8, 4, 4); //draw using center mode
+	  
+	  ellipseMode (RADIUS); //set ellipsemode to radius
+	  fill(255); //set fill to white
+	  ellipse(25, 8, 4, 4); //draw white ellipse using radius mode
+	  ellipseMode (CENTER); //set to center
+	  fill (100); //set fill to gray
+	  ellipse(25, 8, 4, 4); //draw using center mode
+	  
+	  color linec;
+	  linec = color(0, 0, 0);
+	  stroke (linec);
+	  strokeWeight(1);
+	  line(50, 0, 80, 5);	
+	  
+	  */
+	  //image(shead, 10, -55);
+	  image(shead, 10, -40);
+  }
+  
+  popMatrix();
+}
+</script><canvas></canvas></div>
+</body>
+</html>
+
+

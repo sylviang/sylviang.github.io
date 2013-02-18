@@ -1,0 +1,11 @@
+{{ post.content }}{% if post == null %}{{ content }}{% endif %}
+
+{% if post != null %}
+    <a href="{{ post.url }}" class="permalink">&#9876;</a>
+{% endif %}
+
+{% if post == null %}
+    <p class="meta">
+        <time>{{ page.date | date: "%A, %d %B %Y" }}</time>
+    </p>
+{% endif %}
