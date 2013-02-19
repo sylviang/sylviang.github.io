@@ -14,6 +14,5 @@ I have developed hands-on skills on the following:
 -   low-fidelity wireframes using omnigraffle, powerpoint, sketches
 -   high-fidelity wireframes using photoshop
 -   usability testing
-<br/>
 
-I always believe in validating first and code later. It is important to get the requirements and human-computer interaction approach right to avoid expensive roundtrip modifications to a fully developed system.
+I always believe in validating first and code later. It is important to get the requirements and human-computer interaction approach right to avoid expensive roundtrip modifications to a fully developed system. But sometimes, you just gotta do it the agile way.
