@@ -1,10 +1,19 @@
 ---
-layout: layout
+layout: default
 ---
+    
+    {% case page.type %} 
+        {% when 'text' %}
+            <article class="text">
+            {% include text.html %}
+        {% when 'link' %}
+            <article class="link">
+            {% include link.html %}
+        {% when 'photo' %}
+            <article class="photo">
+            {% include photo.html %}
+    {% endcase %}
+    
+    {% include social.html %}
 
-<div class="content">
-  <div id="post">
-    <h1>{{ post.title }}</h1>
-    {{ content }}
-  </div>
-</div>
+</article>

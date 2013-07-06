@@ -145,6 +145,12 @@ h3 {
       color: #AAAAAA;
       border: none; }
 
+h4 { 
+  font-size:1.1em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
 p { 
   margin: 0 0 1em 0; 
 }
@@ -332,6 +338,33 @@ height: 100%;
     transition: all 0.4s ease-in-out;
     transform: scale(0);
 }
+table { 
+  border-spacing:0;
+  border-collapse:collapse;
+}
+
+thead {
+  padding: 5px 5px 5px 0;
+  text-align: left;
+}
+
+td
+{
+  padding: 5px 10px 0 0;
+  width: 210px;
+}
+
+sup {
+font-size: 0.8em;
+position: relative;
+top: -0.5em;
+}
+
+sup, sub {
+  line-height: 0;
+}
+
+
   /*Medium size*/
 
 @media only screen and (min-width:600px) {

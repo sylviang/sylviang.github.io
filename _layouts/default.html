@@ -1,20 +1,26 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width">
-  <title>Sylvia Ng</title>
-
+  <title>{% if page.title %} {{ page.title }} &mdash; {% endif %} Sylvia Ng</title>
   <meta name="description" content="Sylvia Ng is a digital project manager who dabbles with photography and ux design.">
   <meta name="author" content="Sylvia Ng">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsiveslides.css">
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
   <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
   <script src="/js/responsiveslides.min.js"></script>
+  <script src="/js/picturefill.js"></script>
   <script>
   $(function() {
     $(".rslides").responsiveSlides({
