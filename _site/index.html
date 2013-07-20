@@ -45,6 +45,176 @@
         
 
      
+            <article class="text">
+            <h2>
+    <a href="/2013/07/first-offroad">First off-road with TW200</a>
+</h2>
+<p class="meta">
+    Posted on <time>July 20, 2013</time>
+</p>
+<ul class="rslides">
+    <li><img src="/img/offroad-6.jpg" /></li>
+    <li><img src="/img/offroad-1.jpg" /></li>
+    <li><img src="/img/offroad-2.jpg" /></li>
+    <li><img src="/img/offroad-5.jpg" /></li>
+    <li><img src="/img/offroad-4.jpg" /></li>
+    <li><img src="/img/offroad-3.jpg" /></li>
+    <li><img src="/img/offroad-0.jpg" /></li>
+</ul>
+
+
+<p>A few pics from my first off-road attempt. It's a simple trail, just to test out the bike. I will attempt again in the day. Check out the short clip below.</p>
+
+<div class="videoWrapper">
+<iframe src="https://www.facebook.com/video/embed?video_id=10153071373745013" width="1280" height="720" frameborder="0"></iframe>
+</div>
+
+
+
+
+        
+
+    </article>
+
+
+
+     
+            <article class="text">
+            <h2>
+    <a href="/2013/07/imagemagick">Batch generate thumbnails using Image Magick</a>
+</h2>
+<p class="meta">
+    Posted on <time>July 17, 2013</time>
+</p>
+<p>I was helping to populate content, only to realise the system wasn't smart enough to generate its own thumbnails. Someone told me to screenshot the 1st page of each pdf and then upload the image.</p>
+
+<p>This is an utterly waste of time. Hence, I decided to write something to batch generate thumbnails using Image Magick.</p>
+
+<p>Use the command below to generate 100 pixels wide image from the sample.pdf. the [0] means 1st page. You can select the page you want by inputing the page number - 1.</p>
+
+<blockquote><p>convert -thumbnail 100x sample.pdf[0] sample.png</p></blockquote>
+
+<p>You can combine them with any PHP, Django script. I'm lazy so I use my Mac's Automator to batch execute it. You can also use the bash command below.</p>
+
+<blockquote><p>for file in *.pdf; do convert $file[0] -thumbnail 100x -quality 85 -background white -flatten $file-tn.jpg; done</p></blockquote>
+
+
+
+        
+
+    </article>
+
+
+
+     
+            <article class="text">
+            <h2>
+    <a href="/2013/07/csm">Scrum Master Certification Course</a>
+</h2>
+<p class="meta">
+    Posted on <time>July 12, 2013</time>
+</p>
+<p>I can't wait to attend the 3 days Scrum Master Certification by ISS. Ever since I was first introduced to SCRUM, I've been trying to practice it.</p>
+
+<p>However, I din't really get the chance to practice it fully as the companies I've worked in are very much following the old "Waterfall Model". And I also believe they are not ready to work with SCRUM yet.</p>
+
+<p>But I have been slowly applying SCRUM principles and techniques into the process, skipping the terminologies and all, hoping to get them comfortable and one day they will realised "Oh, we're actually using SCRUM." --if they actually know what it is.</p>
+
+<p>With this certification, I hope to encourage people the best practices of SCRUM and to particpate in a SCRUM team that appreciates it.</p>
+
+
+
+        
+
+    </article>
+
+
+
+     
+            <article class="text">
+            <h2>
+    <a href="/2013/07/standards-embarrassing">Not using standards</a>
+</h2>
+<p class="meta">
+    Posted on <time>July 12, 2013</time>
+</p>
+<p>It is embarrassing not to know standards, let alone not to use standards. You may be able to fool your way through, but eventually someone will found out, and you're gonna to appear silly.</p>
+
+<p>So, know your standards. It's so easy now with Google Search.</p>
+
+<ul>
+<li><a href="http://www.bpmn.org/">Business Processes</a>: Version 2.0</li>
+<li><a href="http://www.iiba.org/IIBA/Professional_Development/Business_Analysis_Body_of_Knowledge/IIBA_Website/Professional_Development/Business_Analysis_Body_of_Knowledge_pages/Business_Analysis_Body_of_Knowledge.aspx?hkey=d0891e0a-996a-431f-a6f5-a7d644e23a5c">BABOK</a>: A Guide to the Business Analysis Body of Knowledge® (BABOK® Guide)</li>
+<li><a href="http://www.iiba.org/IIBA/Professional_Development/Agile_Extension_of_the_BABOK/IIBA_Website/Professional_Development/Agile_Extension.aspx?hkey=c7942e53-b6fa-479e-a057-03a820596f02">Agile Extension to the BABOK</a>: Agile Extension to the BABOK® Guide</li>
+<li><a href="http://www.usabilitybok.org/topics">Usability BOK</a>: Usability Body of Knowledge</li>
+<li><a href="http://www.uml.org/">UML</a>: All about UML</li>
+<li><a href="http://agilemanifesto.org/">Agile Manifesto</a>: Manifesto for Agile Software Development</li>
+<li><a href="http://www.isixsigma.com/">iSixSigma</a>: Lots of methodologies</li>
+</ul>
+
+
+
+
+        
+
+    </article>
+
+
+
+     
+            <article class="link">
+            <h3>
+    <a href="http://iagconsulting.tumblr.com/post/13120245268/5-critical-points-bas-need-to-remember">
+        5 Critical Points BAs Need to Remember
+    </a>
+    <time><a href="/2013/07/5pts-ba">12 Jul </a></time>
+
+</h3>
+
+<p>5 Critical Points BAs Need to Remember</p>
+
+<ol>
+<li><p>You will always be describing a process. Determine the process that is to be automated, and describe it.</p></li>
+<li><p>You must understand something at one level before you can truly understand it at a lower level. Start your analysis by describing the overall process at a high level of abstraction to form the framework of the rest of your analysis.</p></li>
+<li><p>You must describe “What" not “How". The business process should be described independent of how a system would help a user to complete the process.</p></li>
+<li><p>Follow the “80/20 Rule”. The “80” = the main process flow, when everything goes smoothly. The “20” = the variations from the main flow.</p></li>
+<li><p>Describe each step and sub-step in a process as “Somebody does something with some information". This syntax will help describe the process in a way that is understandable by all, and will lead to the simple identification of the true business requirements.</p></li>
+</ol>
+
+
+<p>(Source: iag.biz)</p>
+
+        
+
+    </article>
+
+
+
+     
+            <article class="text">
+            <h2>
+    <a href="/2013/07/commonsense">Common Sense</a>
+</h2>
+<p class="meta">
+    Posted on <time>July 11, 2013</time>
+</p>
+<p>“Common sense is the most widely shared commodity in the world, for every man is convinced that he is well supplied with it.” ― René Descartes</p>
+
+<p>Isn't most things in life strikes us as common sense? Or at least, that is what I thought so, same for many others. But common sense is not so common.</p>
+
+<blockquote><p>“Common sense is seeing things as they are; and doing things as they ought to be.” ― Harriet Beecher Stowe</p></blockquote>
+
+<p>Common sense "should" be the root of all analysis. However, common sense is highly subjective and requires definition. Many people see things differently, think differently and thus doing things differently with reasons behind it. And I do think it's rude when one says "Use your common sense".</p>
+
+
+
+        
+
+    </article>
+
+
+
+     
             <article class="link">
             <h3>
     <a href="http://www.bluestacks.com/">
@@ -164,169 +334,6 @@
 <blockquote><p>Turning body scans into edible gummy candies seems like a really interesting gimmick - <a href="http://www.fabcafe.com/event/7594#.UT_NwtEpZN2">FabCafe</a></p></blockquote>
 
 <p>And Singapore has its very own 3D Printer by <a href="http://pirate3d.com">Pirate3DP</a> coming soon! Interesting guys that I have met during the <a href="http://leanuxweek.sg">Lean UX Week 2013</a>.</p>
-
-
-
-        
-
-    </article>
-
-
-
-     
-            <article class="text">
-            <h2>
-    <a href="/2013/03/responsive-site-design">Responsive Site Design</a>
-</h2>
-<p class="meta">
-    Posted on <time>March 12, 2013</time>
-</p>
-<p>Increasingly, companies have finally adopted responsive website design. To me, this is not a trend but a necessity; given how smartphones and tablets affects one's life.</p>
-
-<p>In the past, companies created multiple versions of their websites for mobile users. This is not practical hence responsive design approach saves the day. Although responsive website design has been in the scene for many years, I realised that there are some people who are still confuse between mobile sites and responsive sites.</p>
-
-<p>The basic instinct is to use media queries or css frameworks out there. Depending on the project requirements, here are some options worth considering, <a href="http://www.getskeleton.com/">skeleton</a>, <a href="http://cjdsie.github.com/wirefy">wirefy</a>, <a href="http://foundation.zurb.com">foundation</a>, <a href="http://twitter.github.com/bootstrap">twitter bootstrap</a>, <a href="http://cssgrid.net/">1140 css grid</a>, <a href="http://framelessgrid.com">frameless</a>.</p>
-
-
-
-        
-
-    </article>
-
-
-
-     
-            <article class="link">
-            <h3>
-    <a href="http://amok.atomsforpeace.info/">
-        Atoms For Peace
-    </a>
-    <time><a href="/2013/02/amok">19 Feb </a></time>
-
-</h3>
-
-<p>Atoms For Peace is an experimental rock &amp; electronic supergroup formed in late 2009 in Los Angeles, California.</p>
-
-<blockquote><p>Second project of Radiohead’s vocalist and leader, formed in late 2009. Band is made up of Thom Yorke on vocals, guitar and piano, bassist Flea (Red Hot Chili Peppers), longtime Radiohead producer Nigel Godrich, percussionist Mauro Refosco (Forro In The Dark), and drummer Joey Waronker (R.E.M., Beck, Smashing Pumpkins and Walt Mink).</p></blockquote>
-
-        
-
-    </article>
-
-
-
-     
-            <article class="text">
-            <h2>
-    <a href="/2013/02/timezone">Force Jekyll to use a specific timezone</a>
-</h2>
-<p class="meta">
-    Posted on <time>February 19, 2013</time>
-</p>
-<p>I just realised from the post output that the timestamps are screwed up. I am puzzled. Knowing it must be some timezone issue, but I have no idea what is wrong.</p>
-
-<p>Anyway, for the interim, i'll generate the site with a specific timezone. Use the command below.</p>
-
-<pre><code>TZ=UTC jekyll --server
-</code></pre>
-
-
-
-        
-
-    </article>
-
-
-
-     
-            <article class="text">
-            <h2>
-    <a href="/2013/02/domain-amazon-s3">Point domain to Amazon S3 bucket</a>
-</h2>
-<p class="meta">
-    Posted on <time>February 19, 2013</time>
-</p>
-<p>I've recently registered a domain name (<a href="http://sylviang.me">sylviang.me</a>) from Media Temple benefiting from their $1 valentine's day domain sale. So I decided to "live" this blog that I've been working on for the past few days.</p>
-
-<p>Setting up an S3 bucket as a static website is pretty straightforward as referred to the <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">AWS guide</a>. However, as this is the 1st time I am using Amazon S3 and Media Temple DNS, I am not sure how should I configure my DNS. But nothing is not possible with some googling and playing around.</p>
-
-<p>For clarity sake and because I'll forget if I don't write it down, I am going over the steps below.</p>
-
-<ol>
-<li><p>Create two buckets. It must be the same name as your domain name. e.g. sylviang.me &amp; www.sylviang.me</p></li>
-<li><p>Upload your content to one of the S3 bucket (sylviang.me).</p></li>
-<li><p>Configure buckets for website hosting. Enable website hosting for bucket (sylviang.me). Redirect all requests to another host name for bucket (www.sylviang.me).</p></li>
-<li><p>Test and make sure the "EndPoint" url works as expected. It should be something like sylviang.me.s3-website-ap-southeast-1.amazonaws.com</p></li>
-<li><p>Using the administration tools provided by your domain registrar, remove any "A" records that may have been automatically setup for your domain.</p></li>
-<li><p>Forward your root domain (sylviang.me) to the www subdomain (www.sylviang.me). Mask the forwarding so visitors will see your registered domain instead of the S3 url.</p></li>
-<li><p>Add a "CNAME" for the www subdomain, pointing to your S3 url (sylviang.me.s3-website-ap-southeast-1.amazonaws.com).</p></li>
-<li><p>Now wait for the changes to propagate!</p></li>
-</ol>
-
-
-
-
-        
-
-    </article>
-
-
-
-     
-            <article class="text">
-            <h2>
-    <a href="/2013/02/user-experience">User Experience</a>
-</h2>
-<p class="meta">
-    Posted on <time>February 14, 2013</time>
-</p>
-<p>As a digital project manager, I am often called upon to act as a stand-in information architect which has greatly intrigued my interest in this area.</p>
-
-<p>I have developed hands-on skills on the following:</p>
-
-<ul>
-<li>information architecture</li>
-<li>sitemaps</li>
-<li>low-fidelity wireframes using omnigraffle, powerpoint, sketches</li>
-<li>high-fidelity wireframes using photoshop</li>
-<li>usability testing</li>
-</ul>
-
-
-<p>I always believe in validating first and code later. It is important to get the requirements and human-computer interaction approach right to avoid expensive roundtrip modifications to a fully developed system. But sometimes, you just gotta do it the agile way.</p>
-
-
-
-        
-
-    </article>
-
-
-
-     
-            <article class="text">
-            <h2>
-    <a href="/2013/02/diving-withdrawal">Diving Withdrawal</a>
-</h2>
-<p class="meta">
-    Posted on <time>February 13, 2013</time>
-</p>
-<ul class="rslides">
-    <li><img src="/img/diving-withdrawal-1.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-2.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-3.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-4.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-5.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-6.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-7.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-8.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-9.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-10.jpg" /></li>
-    <li><img src="/img/diving-withdrawal-11.jpg" /></li>
-</ul>
-
-
-<p>A few pics from my last diving trip to Tioman, Malaysia.</p>
 
 
 

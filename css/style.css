@@ -325,13 +325,13 @@ height: 100%;
     font-family: 'Open Sans', Arial, sans-serif;
 }
 .ch-img-1 { 
-    background-image: url(/img/ride.png);
+    background-image: url(/img/interest-01-2.jpg);
 }
 .ch-img-2 { 
-    background-image: url(/img/dive.png);
+    background-image: url(/img/interest-02-1.jpg);
 }
 .ch-img-3 { 
-    background-image: url(/img/hike.png);
+    background-image: url(/img/interest-03-1.jpg);
 }
 .ch-item:hover .ch-info {
     opacity: 0;
@@ -364,6 +364,26 @@ sup, sub {
   line-height: 0;
 }
 
+pre, code { 
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 0.9em;
+  padding-left: 15px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
   /*Medium size*/
 
