@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<ul>
+  {% for post in site.posts %}
+  {% for category in post.categories %}
+  <li class="archive_list">
+    <time datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%m/%d/%y"}}</time> <a class="archive_list_article_link" href='{{post.url}}'>{{post.title}}</a>
+  </li>
+  {% endfor %}
+  {% endfor %}
+</ul>
