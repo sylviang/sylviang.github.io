@@ -16,7 +16,7 @@ categories: miniescapades
     <li><img src="/img/offroad-0.jpg" /></li>
 </ul>
 
-A few pics from my 1st off-road attempt with the Yamaha TW200. It's a simple trail, just to test out the bike. I will attempt again in the day. 
+A few pics from my 1st off-road attempt with the Yamaha TW200. It's a simple trail, just to test out the bike. I will attempt again in the day.
 
 --
 
