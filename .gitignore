@@ -1,6 +1,6 @@
 _site/
 _site/*
-_jekyll_s3.yml
+jekyll_s3.yml
 _drafts
-_s3_website.yml
-_deploy.sh
+s3_website.yml
+deploy.sh
