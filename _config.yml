@@ -1,11 +1,11 @@
 auto: true
 markdown: rdiscount
 paginate: 10
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 # permalink: /:year/:month/:title
 rdiscount extensions: [smart]
 gems:
-  - octopress-paginate
-#  - jekyll-paginate
+#  - octopress-paginate
+  - jekyll-paginate
 
 permalink: /:categories/:title/
