@@ -6,5 +6,5 @@ paginate_path: "/page:num/"
 rdiscount extensions: [smart]
 gems:
   - octopress-paginate
+  - jekyll-paginate
 permalink: /:categories/:title/
-url: http://sylviang.github.io

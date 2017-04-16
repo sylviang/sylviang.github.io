@@ -3,8 +3,7 @@ layout: default
 title: My Blog
 paginate: true
 ---
-Posts
-<div class="posts">
+
 {% for post in paginator.posts %}
 
      {% case post.type %}
@@ -22,7 +21,6 @@ Posts
     </article>
 
 {% endfor %}
-</div>
 
 <nav class="pagination">
 
