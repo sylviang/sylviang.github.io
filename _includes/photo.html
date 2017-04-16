@@ -1,7 +1,7 @@
 {{ post.content }}{% if post == null %}{{ content }}{% endif %}
 
 {% if post != null %}
-    <a href="{{ site.baseurl }}/{{ post.url }}" class="permalink">&#9876;</a>
+    <a href="{{ post.url }}" class="permalink">&#9876;</a>
 {% endif %}
 
 {% if post == null %}

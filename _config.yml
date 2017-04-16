@@ -4,6 +4,7 @@ paginate: 10
 paginate_path: "/page:num/"
 # permalink: /:year/:month/:title
 rdiscount extensions: [smart]
-gems: [octopress-paginate]
+gems:
+  - octopress-paginate
 permalink: /:categories/:title/
 url: http://sylviang.github.io
