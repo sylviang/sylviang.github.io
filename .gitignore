@@ -1,3 +1,5 @@
+_site
+_site/*
 jekyll_s3.yml
 _drafts
 s3_website.yml
