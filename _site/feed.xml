@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T00:28:26+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">(IoT) Espresso Lite</title><link href="http://localhost:4000/labs/espressolite/" rel="alternate" type="text/html" title="(IoT) Espresso Lite" /><published>2016-10-12T00:00:00+08:00</published><updated>2016-10-12T00:00:00+08:00</updated><id>http://localhost:4000/labs/espressolite</id><content type="html" xml:base="http://localhost:4000/labs/espressolite/">&lt;p&gt;Done playing around with the espresso lite for awhile. So, I decided to leave it alone. Here's the real-time humidity and temperature of my room. Argggh.&lt;/p&gt;
+
+&lt;div class=&quot;intrinsic-container&quot;&gt;
+  &lt;iframe src=&quot;http://www.espert.io/freeboard/index.html#key=5305438354538496&quot; width=&quot;320&quot; height=&quot;700&quot; align=&quot;top&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Done playing around with the espresso lite for awhile. So, I decided to leave it alone. Here's the real-time humidity and temperature of my room. Argggh.</summary></entry><entry><title type="html">(ROR) UX Jobs</title><link href="http://localhost:4000/projects/uxjobs/" rel="alternate" type="text/html" title="(ROR) UX Jobs" /><published>2016-05-05T00:00:00+08:00</published><updated>2016-05-05T00:00:00+08:00</updated><id>http://localhost:4000/projects/uxjobs</id><content type="html" xml:base="http://localhost:4000/projects/uxjobs/">&lt;p&gt;An attempt to revisit Ruby On Rails.&lt;/p&gt;
+
+&lt;p&gt;Check out UX Jobs. Ruby app deployed onto Heroku.
+&lt;a href=&quot;https://warm-peak-29601.herokuapp.com/&quot;&gt;https://warm-peak-29601.herokuapp.com/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">An attempt to revisit Ruby On Rails.</summary></entry><entry><title type="html">7 things about the Apple Watch</title><link href="http://localhost:4000/applewatch/" rel="alternate" type="text/html" title="7 things about the Apple Watch" /><published>2015-09-29T09:15:00+08:00</published><updated>2015-09-29T09:15:00+08:00</updated><id>http://localhost:4000/applewatch</id><content type="html" xml:base="http://localhost:4000/applewatch/">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The watch is a great complement to my huge ass iPhone 6+. The phone is so bulky that I left it lying around not within reach, or it is kept inside the bag. But my work requires me to response to important messages immediately. When I am waiting or expecting something, instead of having to check my phone every now and then, the notifications and alerts on my wrist tells me if it's what I am expecting.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Battery life is decent. A habit of mine is to wear the watch all day even when I am at sleep or in shower. Now that I have to take it out to charge at the end-of-the-day, I think sleep better and more comfortable.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I silent my phone most of the time and I do not turn on the vibrations because it can be irritating when the phone is vibrating on the desk. At work, I do get call alerts and iMessages on my laptop. But when I am away from desk, the prominent haptic allow me to know when I am about to receive something.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I never scroll with the crown. Using finger scroll works just as well. Maybe I am used to it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I love that I get rewarded for activity goals. Not much, but still it is some encouragement.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I feel like a fool when I take phone calls from the watch. The speaker is too soft. However, I enjoy texting. It is a quick and easy way to send text messages but weird user experience of having to select the receiver's name and press send.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GPS is good. However, when I am riding on my motorbike, I could see the map directions through glances but could not feel the vibrations. Probably due to the crazy vibrations from my dual-purpose scrambler-looking motorbike. Apple maps seems fine for now.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;I can't wait for the next release. :)&lt;/p&gt;</content><author><name></name></author><summary type="html">The watch is a great complement to my huge ass iPhone 6+. The phone is so bulky that I left it lying around not within reach, or it is kept inside the bag. But my work requires me to response to important messages immediately. When I am waiting or expecting something, instead of having to check my phone every now and then, the notifications and alerts on my wrist tells me if it's what I am expecting.</summary></entry><entry><title type="html">(Jekyll) Interface.SG</title><link href="http://localhost:4000/projects/interfacesg/" rel="alternate" type="text/html" title="(Jekyll) Interface.SG" /><published>2014-09-17T00:00:00+08:00</published><updated>2014-09-17T00:00:00+08:00</updated><id>http://localhost:4000/projects/interfacesg</id><content type="html" xml:base="http://localhost:4000/projects/interfacesg/">&lt;p&gt;First commit!&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://interfacesg.github.io&quot;&gt;A guide to user experience design in Singapore&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">First commit!</summary></entry><entry><title type="html">(App) Motoqlik</title><link href="http://localhost:4000/projects/motoqlik/" rel="alternate" type="text/html" title="(App) Motoqlik" /><published>2014-07-21T02:42:00+08:00</published><updated>2014-07-21T02:42:00+08:00</updated><id>http://localhost:4000/projects/motoqlik</id><content type="html" xml:base="http://localhost:4000/projects/motoqlik/">&lt;p&gt;From Nov 2013 to Apr 2014, I am working on my 1st mobile app side project on top of my full-time job. Made &lt;a href=&quot;http://motoqlik.com&quot;&gt;Motoqlik&lt;/a&gt; with Brandon and friends. It is a motorists social app that we would like to refer to as a revolutionary way for motorists to connect.&lt;/p&gt;
+
+&lt;p&gt;I have neglected it since and rather early this month, the app has launched on both &lt;a href=&quot;https://itunes.apple.com/us/app/motoqlik/id882273536&quot;&gt;iOS App Store&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.motoqlik.app&quot;&gt;Android Play Store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m kinda embarrassed about it. But hey!&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;If you are not embarrassed by the first version of your product, you’ve launched too late. - Reid Hoffman&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Fun times. We have to re-shoot our &lt;a href=&quot;http://www.youtube.com/watch?v=9LKcY8Ek98s&quot;&gt;video&lt;/a&gt; because the hdd crashed and we lost all the footage. I also did my 1st &lt;a href=&quot;http://buff.ly/1zi1My7&quot;&gt;info-graphic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, I have some plans on stripping the features and design for a new version. However, I am not sure if it will be worth the effort. And I have other priorities...&lt;/p&gt;
+
+&lt;ul class=&quot;rslides&quot;&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/mq-01.png&quot;&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/mq-02.png&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">From Nov 2013 to Apr 2014, I am working on my 1st mobile app side project on top of my full-time job. Made Motoqlik with Brandon and friends. It is a motorists social app that we would like to refer to as a revolutionary way for motorists to connect.</summary></entry><entry><title type="html">April 2014</title><link href="http://localhost:4000/mq/" rel="alternate" type="text/html" title="April 2014" /><published>2014-03-28T05:42:00+08:00</published><updated>2014-03-28T05:42:00+08:00</updated><id>http://localhost:4000/mq</id><content type="html" xml:base="http://localhost:4000/mq/">&lt;p&gt;This place has been neglected, due to a side project which took up the bulk of my spare time. It's not ready/release yet, so only a small preview of an illustrated car that I drew. It's one of my 1st few attempts using the pen tool in illustrator. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/preview-01.png&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Time is a created thing. To say 'I don't have time,' is like saying, 'I don't want to'. ― Laozi&lt;/p&gt;&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">This place has been neglected, due to a side project which took up the bulk of my spare time. It's not ready/release yet, so only a small preview of an illustrated car that I drew. It's one of my 1st few attempts using the pen tool in illustrator. :)</summary></entry><entry><title type="html">Through the visor</title><link href="http://localhost:4000/throughthevisor/" rel="alternate" type="text/html" title="Through the visor" /><published>2013-08-03T04:00:00+08:00</published><updated>2013-08-03T04:00:00+08:00</updated><id>http://localhost:4000/throughthevisor</id><content type="html" xml:base="http://localhost:4000/throughthevisor/">&lt;p&gt;&lt;img src=&quot;http://31.media.tumblr.com/a6ceac68937b022573fc777dbb7908e0/tumblr_mqx85eVHfF1sdhy3ro1_500.jpg&quot; alt=&quot;through the visor&quot; style=&quot;width:278px; margin:0px auto;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I started a tumblr blog - &lt;a href=&quot;http://throughthevisor.tumblr.com/&quot;&gt;Through the Visor&lt;/a&gt;. It is about random interesting things I have seen during my rides, mostly from the short commute to work.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mini Escapades</title><link href="http://localhost:4000/first-offroad/" rel="alternate" type="text/html" title="Mini Escapades" /><published>2013-07-20T18:18:00+08:00</published><updated>2013-07-20T18:18:00+08:00</updated><id>http://localhost:4000/first-offroad</id><content type="html" xml:base="http://localhost:4000/first-offroad/">&lt;ul class=&quot;rslides&quot;&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-6.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-1.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-2.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-5.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-4.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-3.jpg&quot; /&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src=&quot;/img/offroad-0.jpg&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;A few pics from my 1st off-road attempt with the Yamaha TW200. It's a simple trail, just to test out the bike. I will attempt again in the day.&lt;/p&gt;
+
+&lt;p&gt;--&lt;/p&gt;
+
+&lt;p&gt;Ever since I have started working, I realise there's a need for &lt;a href=&quot;/categories/miniescapades/&quot;&gt;mini escapades&lt;/a&gt; to recharge oneself. I don't mean expensive, long, exotic travels, but escapades that can be close to home, cheap, simple, short and yet very effective.&lt;/p&gt;
+
+&lt;p&gt;I decided to document my escapades down in hope of encouraging people to get outside of their comfort zone, go somewhere they've never been, go on a mini adventure.&lt;/p&gt;
+
+&lt;p&gt;I aim to achieve an escapade once a month. With these escapades build up gradually, I hope inspire more to start on their own mini escapades.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Batch generate thumbnails using Image Magick</title><link href="http://localhost:4000/imagemagick/" rel="alternate" type="text/html" title="Batch generate thumbnails using Image Magick" /><published>2013-07-17T23:06:00+08:00</published><updated>2013-07-17T23:06:00+08:00</updated><id>http://localhost:4000/imagemagick</id><content type="html" xml:base="http://localhost:4000/imagemagick/">&lt;p&gt;I was helping to populate content, only to realise the system wasn't smart enough to generate its own thumbnails. Someone told me to screenshot the 1st page of each pdf and then upload the image.&lt;/p&gt;
+
+&lt;p&gt;This is an utterly waste of time. Hence, I decided to write something to batch generate thumbnails using Image Magick.&lt;/p&gt;
+
+&lt;p&gt;Use the command below to generate 100 pixels wide image from the sample.pdf. the [0] means 1st page. You can select the page you want by inputing the page number - 1.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;convert -thumbnail 100x sample.pdf[0] sample.png&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;You can combine them with any PHP, Django script. I'm lazy so I use my Mac's Automator to batch execute it. You can also use the bash command below.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;for file in *.pdf; do convert $file[0] -thumbnail 100x -quality 85 -background white -flatten $file-tn.jpg; done&lt;/p&gt;&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">I was helping to populate content, only to realise the system wasn't smart enough to generate its own thumbnails. Someone told me to screenshot the 1st page of each pdf and then upload the image.</summary></entry><entry><title type="html">Scrum Master Certification Course</title><link href="http://localhost:4000/csm/" rel="alternate" type="text/html" title="Scrum Master Certification Course" /><published>2013-07-12T20:13:00+08:00</published><updated>2013-07-12T20:13:00+08:00</updated><id>http://localhost:4000/csm</id><content type="html" xml:base="http://localhost:4000/csm/">&lt;p&gt;I can't wait to attend the 3 days Scrum Master Certification by ISS. Ever since I was first introduced to SCRUM, I've been trying to practice it.&lt;/p&gt;
+
+&lt;p&gt;However, I din't really get the chance to practice it fully as the companies I've worked in are very much following the old &quot;Waterfall Model&quot;. And I also believe they are not ready to work with SCRUM yet.&lt;/p&gt;
+
+&lt;p&gt;But I have been slowly applying SCRUM principles and techniques into the process, skipping the terminologies and all, hoping to get them comfortable and one day they will realised &quot;Oh, we're actually using SCRUM.&quot; --if they actually know what it is.&lt;/p&gt;
+
+&lt;p&gt;With this certification, I hope to encourage people the best practices of SCRUM and to particpate in a SCRUM team that appreciates it.&lt;/p&gt;</content><author><name></name></author><summary type="html">I can't wait to attend the 3 days Scrum Master Certification by ISS. Ever since I was first introduced to SCRUM, I've been trying to practice it.</summary></entry></feed>
