@@ -1,10 +1,9 @@
 ---
 layout: post
-type: link
+type: text
 title: (Jekyll) Interface.SG
-link: http://interfacesg.github.io
 date: 2014-09-17
-categories: projects
+categories: [Projects]
 ---
 
 First commit!

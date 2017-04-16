@@ -3,7 +3,6 @@ layout: post
 type: text
 title: Mini Escapades
 date: 2013-07-20 10:18:00
-categories: miniescapades
 ---
 
 <ul class="rslides">

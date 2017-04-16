@@ -3,7 +3,7 @@ layout: post
 type: text
 title: 1st Red Bull Flugtag 2012 Singapore
 date: 2013-02-10 10:18:00
-categories: projects
+categories: [Labs]
 ---
 <ul class="rslides">
     <li><img src="/img/flugtag-00.jpg" /></li>

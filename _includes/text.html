@@ -3,6 +3,17 @@
 </h2>
 <p class="meta">
     Posted on <time>{{ post.date | date: "%B %d, %Y" }}{% if post == null %}{{ page.date | date: "%B %d, %Y" }}{% endif %}</time>
+
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      , In <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+
+
 </p>
 {{ post.content }}{% if post == null %}{{ content }}{% endif %}
-

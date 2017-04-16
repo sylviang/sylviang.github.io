@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-    
-    {% case page.type %} 
+
+    {% case page.type %}
         {% when 'text' %}
             <article class="text">
             {% include text.html %}
@@ -13,7 +13,7 @@ layout: default
             <article class="photo">
             {% include photo.html %}
     {% endcase %}
-    
+
     {% include social.html %}
 
 </article>
