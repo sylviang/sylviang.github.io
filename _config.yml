@@ -6,4 +6,5 @@ paginate_path: "/page:num/"
 rdiscount extensions: [smart]
 gems: [jekyll-paginate]
 permalink: /:categories/:title/
-url: http://sylviang.github.io/
+url: http://sylviang.github.io
+baseurl: "/"
