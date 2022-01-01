@@ -55,7 +55,11 @@ body {
   color: #fff;
 }
 
-  #masthead img {
+#masthead .links a {
+  padding: 0 10px;
+}
+
+#masthead img {
   display: none;
 }
 
@@ -518,11 +522,11 @@ pre, code {
 
   #masthead img {
     display: inline;
-    width: 150px;
-    height: 150px;
- -moz-border-radius: 75px;
-  -webkit-border-radius: 75px;
-  border-radius: 75px;
+    width: 170px;
+    height: 170px;
+ -moz-border-radius: 85px;
+  -webkit-border-radius: 85px;
+  border-radius: 85px;
   }
 
 }
